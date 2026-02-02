@@ -19,7 +19,7 @@ export const FinancialChart: React.FC = () => {
         Distribution of ~549.8M NPR raised between 2015-2025.
         Critics highlight the near exhaustion of funds (98.8% expenditure rate) without detailed public auditing.
       </p>
-      
+
       <div className="h-64 w-full">
         <ResponsiveContainer width="100%" height="100%">
           <PieChart>
@@ -42,7 +42,7 @@ export const FinancialChart: React.FC = () => {
         </ResponsiveContainer>
       </div>
 
-      <div className="mt-4 grid grid-cols-2 gap-4 text-center">
+      <div className="mt-4 grid sm:grid-cols-2 gap-4 text-center">
         <div className="p-3 bg-red-50 rounded-lg">
             <span className="block text-xs text-slate-500 uppercase">Implied Expenditure</span>
             <span className="text-lg font-bold text-red-600">{formatCurrency(543465120)}</span>
